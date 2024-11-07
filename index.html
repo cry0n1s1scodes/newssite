@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breaking News: Philippines Supreme Court Removes Chief Justice</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@1.14.2/dist/full.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <style>
+    .headline {
+      font-size: 4rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+
+    .subheading {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .article-text {
+      font-size: 1.5rem;
+      line-height: 2;
+    }
+
+    .article-image {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-24">
+    <h1 class="headline">Breaking News: Philippines Supreme Court Removes Chief Justice</h1>
+    <p class="subheading">Maria Lourdes Sereno's Ouster Sparks Protests and Outrage</p>
+    <img class="article-image" src="./philippines-protest.jpg" alt="Protesters in the Philippines">
+    <p class="article-text">In a shocking move, the Philippines Supreme Court has removed Chief Justice Maria Lourdes Sereno from office, sparking widespread outrage and protests across the country. The decision, which was announced on [date], has been widely condemned as an attack on democracy and the independence of the judiciary.</p>
+    <p class="article-text">Chief Justice Sereno was known for her vocal criticism of President Rodrigo Duterte's policies, particularly his war on drugs, which has resulted in thousands of extrajudicial killings. Her removal from office is seen as a clear attempt to silence a key critic of the administration.</p>
+    <p class="article-text">The ouster of Chief Justice Sereno has sparked widespread protests, with thousands of people taking to the streets to demonstrate against the decision. The protests have been peaceful, but tensions are running high, and there are concerns about the potential for violence.</p>
+    <p class="article-text">The international community has also condemned the decision, with many countries expressing concerns about the erosion of democracy and the rule of law in the Philippines. The United States, the European Union, and other key allies have all issued statements criticizing the move.</p>
+    <p class="article-text">This developing story has significant implications for the future of democracy in the Philippines and the region. As the situation continues to unfold, one thing is clear: the people of the Philippines will not go quietly into the night, and they will fight to protect their rights and freedoms.</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+  <script>
+    ScrollReveal().reveal('.headline', {
+      origin: 'top',
+      distance: '50px',
+      duration: 1000,
+      delay: 200,
+    });
+
+    ScrollReveal().reveal('.subheading', {
+      origin: 'top',
+      distance: '30px',
+      duration: 800,
+      delay: 400,
+    });
+
+    ScrollReveal().reveal('.article-text', {
+      origin: 'bottom',
+      distance: '50px',
+      duration: 1000,
+      delay: 600,
+    });
+
+    ScrollReveal().reveal('.article-image', {
+      origin: 'left',
+      distance: '50px',
+      duration: 1000,
+      delay: 800,
+    });
+  </script>
+</body>
+</html>
